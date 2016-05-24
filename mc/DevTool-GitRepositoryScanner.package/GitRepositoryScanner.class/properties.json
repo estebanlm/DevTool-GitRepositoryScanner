@@ -1,0 +1,14 @@
+{
+	"category" : "DevTool-GitRepositoryScanner",
+	"classinstvars" : [
+		"uniqueInstance" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"roots" ],
+	"name" : "GitRepositoryScanner",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
