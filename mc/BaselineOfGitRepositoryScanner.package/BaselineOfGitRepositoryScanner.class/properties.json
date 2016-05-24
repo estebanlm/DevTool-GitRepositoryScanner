@@ -1,0 +1,14 @@
+{
+	"category" : "BaselineOfGitRepositoryScanner",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BaselineOfGitRepositoryScanner",
+	"pools" : [
+		 ],
+	"super" : "BaselineOf",
+	"type" : "normal" }
