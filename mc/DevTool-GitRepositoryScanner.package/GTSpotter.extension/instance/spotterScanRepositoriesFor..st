@@ -8,12 +8,9 @@ spotterScanRepositoriesFor: aStep
 		itemName: [ :item | item fullName ];
 		itemIcon: [ :item | GitRepositoryScanner iconFor: item ];
 		filter: GTFilterSubstring;
-		actLogic: [ :item :step | | repository |
+		actLogic: [ :item :step | 
 			step exit.
-			repository := GitRepositoryScanner uniqueInstance 
-				addRepository: item
-				ifAlreadyPresent: [ :aRepository |
-					UIManager default inform: ('{1} is already present.' 
-						format: { aRepository description }) ].
-			repository ifNotNil: [ repository morphicOpen ] ];
+			GitRepositoryScannerAddAction new 
+				reference: item;
+				execute ];
 		wantsToDisplayOnEmptyQuery: true

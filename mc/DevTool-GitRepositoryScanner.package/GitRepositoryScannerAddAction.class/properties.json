@@ -2,14 +2,12 @@
 	"commentStamp" : "<historical>",
 	"super" : "Object",
 	"category" : "DevTool-GitRepositoryScanner",
-	"classinstvars" : [
-		"uniqueInstance"
-	],
+	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"roots"
+		"reference"
 	],
-	"name" : "GitRepositoryScanner",
+	"name" : "GitRepositoryScannerAddAction",
 	"type" : "normal"
 }

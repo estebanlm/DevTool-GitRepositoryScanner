@@ -1,0 +1,3 @@
+private
+scanner
+	^ GitRepositoryScanner uniqueInstance
